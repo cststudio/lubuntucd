@@ -1,3 +1,9 @@
+newiso*
+splash*
+squashfs*
+test*
+tools*
+*.iso
 # Prerequisites
 *.d
 

@@ -1,0 +1,17 @@
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial main restricted #Added by software-properties
+deb http://mirror.neu.edu.cn/ubuntu/ xenial main restricted
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial restricted multiverse universe #Added by software-properties
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-updates main restricted
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-updates main restricted multiverse universe #Added by software-properties
+deb http://mirror.neu.edu.cn/ubuntu/ xenial universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-updates universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial multiverse
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-updates multiverse
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse #Added by software-properties
+deb http://archive.canonical.com/ubuntu xenial partner
+deb-src http://archive.canonical.com/ubuntu xenial partner
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-security main restricted
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-security universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-security multiverse

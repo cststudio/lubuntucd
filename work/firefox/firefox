@@ -1,0 +1,3 @@
+firefox binary: embedded-library usr/lib/firefox/libxul.so: libjpeg
+firefox binary: embedded-library usr/lib/firefox/libmozsqlite3.so: sqlite
+firefox binary: image-file-in-usr-lib
