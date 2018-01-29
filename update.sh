@@ -7,7 +7,6 @@ ROOTFS=$PWD/squashfs-root
 WORK_DIR=$PWD/work
 
 TOOLS_DIR=$PWD/tools
-# 更新图片等
 
 #开始栏logo
 cp $WORK_DIR/destop_images/start/* $ROOTFS/usr/share/lubuntu/images/
@@ -30,16 +29,6 @@ cp $WORK_DIR/etc/lxterminal.conf $ROOTFS/usr/share/lxterminal/
 # 开始菜单
 cp $WORK_DIR/menu/panel $ROOTFS/usr/share/lxpanel/profile/Lubuntu/panels/
 
-# 桌面图标(将系统已有的图标放到桌面上)
-#mkdir -p $ROOTFS/etc/skel/Desktop
-#cd $ROOTFS/etc/skel/Desktop/
-#cp $ROOTFS/usr/share/applications/firefox.desktop .
-#cp $ROOTFS/usr/share/applications/lxterminal.desktop .
-#cp $ROOTFS/usr/share/applications/lubuntu-screenlock.desktop .
-#cp $ROOTFS/usr/share/applications/fcitx.desktop .
-#chmod +x *
-#cd -
-
 # 准备网络环境
 cat $WORK_DIR/source/n163.list > $ROOTFS/etc/apt/sources.list
 cp /etc/resolv.conf $ROOTFS/etc/
@@ -50,20 +39,46 @@ chroot $ROOTFS apt-get update
 # 安装软件
 chroot $ROOTFS apt-get install -y vim cmake
 
-# 安装firefox38
+# <<<<<<<<<< 安装firefox38
+# 拷贝安装包
 cp $TOOLS_DIR/firefox-38.0.tar.bz2 $ROOTFS
+# 备份桌面图标
 cp $ROOTFS/usr/share/lintian/overrides/firefox $WORK_DIR/firefox
 cp $ROOTFS/usr/share/applications/firefox.desktop $WORK_DIR/firefox
-
+# 卸载默认的firefox
 chroot $ROOTFS apt-get remove -y firefox
-
+# 解压、安装、创建链接
 chroot $ROOTFS tar xjf /firefox-38.0.tar.bz2
 chroot $ROOTFS mv /firefox /opt/firefox38
 chroot $ROOTFS rm /firefox-38.0.tar.bz2
 chroot $ROOTFS ln -s /opt/firefox38/firefox /usr/bin/firefox
+#恢复桌面图标
 cp $WORK_DIR/firefox/firefox $ROOTFS/usr/share/lintian/overrides/firefox
 cp $WORK_DIR/firefox/firefox.desktop $ROOTFS/usr/share/applications/firefox.desktop
+# >>>>>>>>>>>>>>>>>>firefox38安装结束
 
+# 桌面图标(将系统已有的图标放到桌面上)
+mkdir -p $ROOTFS/etc/skel/Desktop
+cd $ROOTFS/etc/skel/Desktop/
+# 用这种方式，如果不拷贝ubiquity.desktop，则双击图标无法安装
+cp $ROOTFS/usr/share/applications/ubiquity.desktop .
+# 火狐浏览器
+#cp $ROOTFS/usr/share/applications/firefox.desktop .
+# 终端
+#cp $ROOTFS/usr/share/applications/lxterminal.desktop .
+# 屏幕锁
+#cp $ROOTFS/usr/share/applications/lubuntu-screenlock.desktop .
+#输入法
+cp $ROOTFS/usr/share/applications/fcitx.desktop .
+
+# home目录和根目录
+cp $ROOTFS/work/etc/pcmanfm_home.desktop .
+cp $ROOTFS/work/etc/pcmanfm_rootfs.desktop .
+
+#下面自行添加要在桌面显示的图标
+
+chmod +x *
+cd -
 
 # 将时区改为东八区
 chroot $ROOTFS rm /etc/localtime
@@ -78,7 +93,10 @@ chroot $ROOTFS apt-get install -y fcitx-pinyin fcitx-table-wubi fcitx-table-wbpy
 exit
 
 # 卸载软件相关工具
-#chroot $ROOTFS apt-get remove -y synaptic lubuntu-software-center gdebi
+# software-properties-gtk 是软件安装、更新器，可以选择软件源、是否更新软件
+# update-manager 是软件更新器，系统安装后，需要更新时，开机会自动弹出窗口
+# synaptic是新立得软件管理器
+#chroot $ROOTFS apt-get autoremove -y synaptic lubuntu-software-center gdebi software-properties-gtk update-manager
 
 chroot $ROOTFS rm -rf $(find /usr -name "*dpkg*") $(find /usr -name "*apt*")
 chroot $ROOTFS rm -rf $(find /etc -name "*dpkg*") $(find /etc -name "*apt*")
