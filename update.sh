@@ -57,25 +57,33 @@ cp $WORK_DIR/firefox/firefox $ROOTFS/usr/share/lintian/overrides/firefox
 cp $WORK_DIR/firefox/firefox.desktop $ROOTFS/usr/share/applications/firefox.desktop
 # >>>>>>>>>>>>>>>>>>firefox38安装结束
 
-# 桌面图标(将系统已有的图标放到桌面上)
+echo "copying desktop..."
+# 桌面图标(将系统已有的图标放到桌面上)位于Desktop目录下
 mkdir -p $ROOTFS/etc/skel/Desktop
-cd $ROOTFS/etc/skel/Desktop/
-# 用这种方式，如果不拷贝ubiquity.desktop，则双击图标无法安装
-cp $ROOTFS/usr/share/applications/ubiquity.desktop .
+cd $ROOTFS/etc/skel/
 # 火狐浏览器
-#cp $ROOTFS/usr/share/applications/firefox.desktop .
+cp $ROOTFS/usr/share/applications/firefox.desktop ./Desktop
 # 终端
-#cp $ROOTFS/usr/share/applications/lxterminal.desktop .
+cp $ROOTFS/usr/share/applications/lxterminal.desktop ./Desktop
 # 屏幕锁
-#cp $ROOTFS/usr/share/applications/lubuntu-screenlock.desktop .
+#cp $ROOTFS/usr/share/applications/lubuntu-screenlock.desktop ./Desktop
 #输入法
-cp $ROOTFS/usr/share/applications/fcitx.desktop .
+cp $ROOTFS/usr/share/applications/fcitx.desktop ./Desktop
 
-# home目录和根目录
-cp $ROOTFS/work/etc/pcmanfm_home.desktop .
-cp $ROOTFS/work/etc/pcmanfm_rootfs.desktop .
+# 用这种方式，如果不拷贝ubiquity.desktop，则双击图标无法安装
+cp $WORK_DIR/etc/ubiquity.desktop $ROOTFS/usr/share/applications/ubiquity.desktop
+cp $WORK_DIR/etc/ubiquity.desktop ./Desktop
+
+# home目录和根目录(注：要修改)
+cp $WORK_DIR/etc/pcmanfm_home.desktop ./Desktop
+cp $WORK_DIR/etc/pcmanfm_rootfs.desktop ./Desktop
 
 #下面自行添加要在桌面显示的图标
+
+# 拷贝鼠标样式
+cp -a $WORK_DIR/lubuntu/.config . 
+cp -a $WORK_DIR/lubuntu/.icons .
+cp -a $WORK_DIR/lubuntu/.local .
 
 chmod +x *
 cd -
@@ -96,7 +104,7 @@ exit
 # software-properties-gtk 是软件安装、更新器，可以选择软件源、是否更新软件
 # update-manager 是软件更新器，系统安装后，需要更新时，开机会自动弹出窗口
 # synaptic是新立得软件管理器
-#chroot $ROOTFS apt-get autoremove -y synaptic lubuntu-software-center gdebi software-properties-gtk update-manager
+chroot $ROOTFS apt-get autoremove -y synaptic lubuntu-software-center gdebi software-properties-gtk update-manager
 
 chroot $ROOTFS rm -rf $(find /usr -name "*dpkg*") $(find /usr -name "*apt*")
 chroot $ROOTFS rm -rf $(find /etc -name "*dpkg*") $(find /etc -name "*apt*")
