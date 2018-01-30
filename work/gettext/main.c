@@ -16,7 +16,7 @@ int main(void)
     
     printf(_("This is GetText test.\n"));
     printf(_("Hello world.\n"));
-
+    printf(_("My name is Late Lee.\n"));
     for (i = 0; i < 3; i++)
     {
         printf(_("output: %d\n"), i);

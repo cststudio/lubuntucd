@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-30 12:57+0800\n"
+"POT-Creation-Date: 2018-01-30 13:35+0800\n"
 "PO-Revision-Date: 2018-01-30 12:58+0800\n"
 "Last-Translator: Late Lee <li@latelee.org>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -31,18 +31,22 @@ msgstr ""
 msgid "This is GetText test.\n"
 msgstr "这是GetText的测试程序。\n"
 
-
 #: main.c:18
 #, c-format
 msgid "Hello world.\n"
 msgstr "好，世界。\n"
 
-#: main.c:21
+#: main.c:19
+#, c-format
+msgid "My name is Late Lee.\n"
+msgstr "我的名字是李迟。\n"
+
+#: main.c:22
 #, c-format
 msgid "output: %d\n"
 msgstr "输出第%d次\n"
 
-#: main.c:24
+#: main.c:25
 #, c-format
 msgid "end of test.\n"
 msgstr "结束测试。\n"
