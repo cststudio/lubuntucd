@@ -14,10 +14,11 @@
 * 拼音、五笔输入法 OK
 * 删除软件安装途径 OK
 * 软件安装 OK （过于复杂，另起文档描述）
+* 语言文件修改 OK
 * 菜单分类、改名 NOOOOO
 * 桌面图标对齐 NOOOOO
 * 锁屏 NOOOOO
-* 语言文件修改 NOOOOO
+
 
 ## file(script)
 * 1_tar_iso.sh：unpack iso
