@@ -59,9 +59,10 @@ cp $WORK_DIR/firefox/firefox.desktop $ROOTFS/usr/share/applications/firefox.desk
 # >>>>>>>>>>>>>>>>>>firefox38安装结束
 
 echo "copying desktop..."
-# 桌面图标(将系统已有的图标放到桌面上)位于Desktop目录下
-mkdir -p $ROOTFS/etc/skel/Desktop
 cd $ROOTFS/etc/skel/
+mkdir -p Desktop Documents Downloads Music Pictures Public Templates Videos
+
+# 桌面图标(将系统已有的图标放到桌面上)位于Desktop目录下
 # 火狐浏览器
 cp $ROOTFS/usr/share/applications/firefox.desktop ./Desktop
 # 终端
@@ -81,10 +82,12 @@ cp $WORK_DIR/etc/pcmanfm_rootfs.desktop ./Desktop
 
 #下面自行添加要在桌面显示的图标
 
-# 拷贝鼠标样式
-cp -a $WORK_DIR/lubuntu/.config . 
-cp -a $WORK_DIR/lubuntu/.icons .
-cp -a $WORK_DIR/lubuntu/.local .
+# 拷贝鼠标样式、主题
+cp -a $WORK_DIR/lubuntu/.config .
+cp -a $WORK_DIR/lubuntu/.icons . 
+#cp -a $WORK_DIR/lubuntu/* .
+
+#cp -a $WORK_DIR/lubuntu/.local .
 
 chmod +x *
 cd -
