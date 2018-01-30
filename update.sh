@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # 解压squashfs的目录
@@ -94,6 +95,9 @@ chroot $ROOTFS ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 # 汉化
 chroot $ROOTFS apt-get install -y language-pack-zh-hans language-pack-gnome-zh-hans language-pack-zh-hant language-pack-gnome-zh-hant language-pack-en language-pack-gnome-en
+
+# 语言文件修改测试(修改已修改过的mo文件覆盖)
+cp $WORK_DIR/i18n/pcmanfm.mo $ROOTFS/usr/share/locale/zh_CN/LC_MESSAGES/pcmanfm.mo
 
 # 输入法
 chroot $ROOTFS apt-get install -y fcitx-pinyin fcitx-table-wubi fcitx-table-wbpy 

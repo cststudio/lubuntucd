@@ -1,0 +1,948 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pcmanfm 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-22 00:33+0200\n"
+"PO-Revision-Date: 2014-12-03 12:16+0000\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1417608978.000000\n"
+
+msgid ""
+"\n"
+"Developed by Hon Jen Yee (PCMan)"
+msgstr ""
+"\n"
+"由 Hon Jen Yee(PCMan) 开发"
+
+msgid " (%d hidden)"
+msgid_plural " (%d hidden)"
+msgstr[0] " (%d 项隐藏)"
+
+msgid "\"_Smart shortcut\" auto-action on drop to Desktop folder"
+msgstr "“智能快捷方式”-在拖放到 桌面 文件夹时自动执行操作"
+
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 项"
+
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "选择了 %d 项"
+
+msgid "<b>Auto-mount</b>"
+msgstr "<b>自动挂载</b>"
+
+msgid "<b>Background</b>"
+msgstr "<b>背景</b>"
+
+msgid "<b>Behavior</b>"
+msgstr "<b>行为</b>"
+
+msgid "<b>Default View</b>"
+msgstr "<b>默认视图</b>"
+
+msgid "<b>Directories Tree</b>"
+msgstr "<b>目录树</b>"
+
+msgid "<b>Icons</b>"
+msgstr "<b>图标</b>"
+
+msgid "<b>Other Options</b>"
+msgstr "<b>其他选项</b>"
+
+msgid "<b>Programs</b>"
+msgstr "<b>程序</b>"
+
+msgid "<b>Removable medium is inserted</b>"
+msgstr "<b>插入了可移动媒质</b>"
+
+msgid "<b>Show desktop icons</b>"
+msgstr "<b>显示桌面图标</b>"
+
+msgid "<b>Show in Places:</b>"
+msgstr "<b>在位置处显示：</b>"
+
+msgid "<b>Specify remote folder to connect</b>"
+msgstr "<b>指定要连接的远程文件夹</b>"
+
+msgid "<b>Templates</b>"
+msgstr "<b>模板</b>"
+
+msgid "<b>Text</b>"
+msgstr "<b>文本</b>"
+
+msgid "<b>User Interface</b>"
+msgstr "<b>用户界面</b>"
+
+msgid "<b>_Do not load modules matching:</b>"
+msgstr "<b>不加载匹配以下模式的模块：</b>"
+
+msgid "<b>_Load these modules anyway:</b>"
+msgstr "<b>强制加载这些模块：</b>"
+
+msgid "<i>Commands below may include extra options if necessary.</i>"
+msgstr "<i>以下命令在必要时可带额外的选项。</i>"
+
+msgid "A_rchiver integration:"
+msgstr "档案管理器集成(_R)："
+
+msgid "Activate file"
+msgstr "激活文件"
+
+msgid "Ad_vanced"
+msgstr "高级(_V)"
+
+msgid "Add current folder to bookmarks list"
+msgstr "将当前文件夹加到书签列表"
+
+msgid ""
+"Add following folder to bookmarks:\n"
+"'%s'\n"
+"Enter a name for the new bookmark item:"
+msgstr ""
+"将以下文件夹添加到书签中：\n"
+"“%s”\n"
+"为新书签输入一个名称："
+
+msgid "Add to Bookmarks"
+msgstr "添加到书签中"
+
+msgid "Add to Modules Blacklist"
+msgstr "添加到模块黑名单"
+
+msgid "Add to Modules Whitelist"
+msgstr "添加到模块白名单"
+
+msgid "Al_ways show full file names"
+msgstr "总是显示完整文件名(_W)"
+
+msgid "Al_ways show the tab bar"
+msgstr "总是显示标签栏(_W)"
+
+msgid "App_lications"
+msgstr "应用程序(_L)"
+
+msgid "Ask"
+msgstr "询问"
+
+msgid "Auto (move if on the same FS, copy otherwise)"
+msgstr "自动(相同文件系统时移动，否则复制)"
+
+msgid "Browse the file system and manage the files"
+msgstr "浏览文件系统和管理文件"
+
+msgid "By File _Type"
+msgstr "按文件类型(_T)"
+
+msgid "By _Extension"
+msgstr "按扩展名(_E)"
+
+msgid "By _Modification Time"
+msgstr "按修改时间(_M)"
+
+msgid "By _Name"
+msgstr "按名称(_N)"
+
+msgid "By _Size"
+msgstr "按大小(_S)"
+
+msgid "C_olor of label text:"
+msgstr "标签文本颜色(_O)："
+
+msgid "C_reate New..."
+msgstr "新建(_R)..."
+
+msgid "C_ut"
+msgstr "剪切(_U)"
+
+msgid "Center unscaled image on the monitor"
+msgstr "居中显示不缩放的图像"
+
+msgid "Change desktop wallpapers and behavior of desktop manager"
+msgstr "更改桌面壁纸和桌面管理器行为"
+
+msgid "Change folder in the tab to _Home Folder"
+msgstr "将标签页文件夹切换到主目录(_H)"
+
+msgid ""
+"Check to remember view and sort as folder setting rather than global one"
+msgstr "勾选来记住此文件夹单独的视图和排序设置"
+
+msgid "Choose a new shell pattern to show files:"
+msgstr "选择显示文件的新 shell 模式："
+
+msgid "Clos_e tab containing removable medium"
+msgstr "关闭包含可移动媒质的标签页(_E)"
+
+msgid "Close _Window"
+msgstr "关闭窗口(_W)"
+
+msgid "Co_nfirm before deleting files"
+msgstr "在删除文件前请求确认(_N)"
+
+msgid "Color of _shadow:"
+msgstr "阴影颜色(_S)："
+
+msgid "Compact view"
+msgstr "紧凑视图"
+
+msgid "Confi_rm before moving files into \"trash can\""
+msgstr "在将文件移到“回收站”前请求确认(_R)"
+
+msgid "Connect to remote server"
+msgstr "连接到远程服务器"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Copy Pat_h(s)"
+msgstr "复制路径(_H)"
+
+msgid "Copy to_..."
+msgstr "复制到(_O)..."
+
+msgid "Copyright (C) 2009 - 2014"
+msgstr "版权所有 (C) 2009 - 2014"
+
+msgid "Create Lin_k..."
+msgstr "创建链接(_K)..."
+
+msgid "Create new tab for this folder"
+msgstr "在新标签中打开此文件夹"
+
+msgid "Current folder is inaccessible"
+msgstr "当前文件夹无法访问"
+
+msgid "D_efer test for content type on folder loading"
+msgstr "推迟文件夹载入时的内容类型检测(_E)"
+
+msgid "D_uplicate..."
+msgstr "就地复制(_U)..."
+
+msgid "Defaul_t drop action:"
+msgstr "放下的默认操作(_T)："
+
+msgid "Delay of auto-selection in single click mode (0 to disable)"
+msgstr "单击模式中自动选中的延时(0 为禁用)"
+
+msgid "Des_ktop"
+msgstr "桌面(_K)"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Desktop Preferences"
+msgstr "桌面偏好设置"
+
+msgid "Desktop manager is not active."
+msgstr "桌面管理器未激活。"
+
+msgid "Detailed _List View"
+msgstr "详细列表视图(_L)"
+
+msgid "Detailed list view"
+msgstr "详细列表视图"
+
+msgid "Detecting..."
+msgstr "检测中..."
+
+msgid "Dev_ices"
+msgstr "设备(_I)"
+
+msgid "Directory Tree"
+msgstr "目录树"
+
+msgid "Do _not generate thumbnails for files exceeding this size:"
+msgstr "对于大小超过这个尺寸的文件不生成缩略图(_N)："
+
+msgid "Do_n't show available options for those media types:"
+msgstr "在插入以下类型的媒质时不显示可用操作(_N)："
+
+msgid "Don't ask options on _launch executable file"
+msgstr "启动可执行文件时不询问选择(_L)"
+
+msgid "Empty File"
+msgstr "空文件"
+
+msgid "Enter a blacklisted module mask:"
+msgstr "输入拉黑模块掩码："
+
+msgid "Enter a command to run:"
+msgstr "输入要运行的命令："
+
+msgid "Enter a whitelisted module mask:"
+msgstr "输入加白名单模块掩码："
+
+msgid "FILE"
+msgstr "文件"
+
+msgid "FTP"
+msgstr "FTP"
+
+msgid "Fil_ter..."
+msgstr "过滤器(_T)..."
+
+msgid "File Manager"
+msgstr "文件管理器"
+
+msgid "File Manager PCManFM"
+msgstr "文件管理器 PCManFM"
+
+msgid "Filesyste_m Root"
+msgstr "文件系统根目录(_M)"
+
+msgid "Fill with background color only"
+msgstr "只用背景色填充"
+
+msgid "Fin_d Files..."
+msgstr "查找文件(_D)..."
+
+msgid "Fo_lder View Mode"
+msgstr "文件夹查看方式(_L)"
+
+msgid "Folder"
+msgstr "文件夹"
+
+msgid "Folder Propertie_s"
+msgstr "文件夹属性我改的(_S)"
+
+msgid "Free space: %s (Total: %s)"
+msgstr "可用空间：%s(共：%s)"
+
+msgid "Fullscreen _Mode"
+msgstr "全屏模式(_M)"
+
+msgid "Go fo filesystem root"
+msgstr "转到文件系统根目录"
+
+msgid "Go forward to next folder in history"
+msgstr "前进到历史中的下个文件夹"
+
+msgid "Go to desktop folder"
+msgstr "转到桌面文件夹"
+
+msgid "Go to home folder"
+msgstr "转到主文件夹"
+
+msgid "Go to list of devices connected to the computer"
+msgstr "转到连接计算机的设备列表"
+
+msgid "Go to list of places on the network"
+msgstr "转到网络上的位置列表"
+
+msgid "Go to parent Folder"
+msgstr "转到上级文件夹"
+
+msgid "Go to root of applications menu folder"
+msgstr "转到应用程序菜单文件夹顶层"
+
+msgid "Go to the path in the location bar"
+msgstr "转到地址栏中的路径"
+
+msgid "H_ome Folder"
+msgstr "主文件夹(_O)"
+
+msgid "Hid_e 'Close tab' buttons"
+msgstr "隐藏“关闭标签”按钮(_E)"
+
+msgid "Hide e_xpander on empty or locked folder"
+msgstr "隐藏空文件夹或锁定文件夹的展开控件(_X)"
+
+msgid "History"
+msgstr "历史"
+
+msgid "Icon view"
+msgstr "图标视图"
+
+msgid ""
+"If checked then use Startup Notify for application if another not stated "
+"explicitly.\n"
+"If unchecked then use Startup Notify only if that is defined for application."
+msgstr ""
+"若选中，会在未明确声明的情况下使用“启动通知”。\n"
+"如果不选中，只有为应用程序定义了“启动通知”时才会使用。"
+
+msgid ""
+"If enabled then \"Auto\" action on drop file onto Desktop folder will be:\n"
+"- for files directly in Home folder a symlink will be created\n"
+"- files on the same file system will be moved\n"
+"- other files (e.g. on removable media) will be copied\n"
+"- for some external URI a shortcut will be created"
+msgstr ""
+"如果启用，在将文件拖放到 桌面 文件夹时会“自动”：\n"
+"- 对于就在 桌面 文件夹中的文风，会创建一个符号链接\n"
+"- 对于同一文件系统中的文件，会将其移除\n"
+"- 其他文件(如可移动媒体上的文件)，会执行复制\n"
+"- 对于一些外部 URI，会创建一个快捷方式"
+
+msgid "Keyboard Navigation"
+msgstr "键盘导航"
+
+msgid "Launch desktop manager"
+msgstr "启动桌面管理器"
+
+msgid "Lightweight file manager\n"
+msgstr "轻巧的文件管理器\n"
+
+msgid "MODE"
+msgstr "模式"
+
+msgid "Mingle _Files and Folders"
+msgstr "同等对待文件和文件夹(_F)"
+
+msgid "Mo_unt removable media automatically when they are inserted"
+msgstr "在插入可移动媒质时自动挂载(_U)"
+
+msgid "Modules"
+msgstr "模块"
+
+msgid "Move"
+msgstr "移动"
+
+msgid "Move to _Trash"
+msgstr "移到回收站(_T)"
+
+msgid "N"
+msgstr "N"
+
+msgid "Name of configuration profile"
+msgstr "配置名称"
+
+msgid "Net_work"
+msgstr "网络(_W)"
+
+msgid "New T_ab"
+msgstr "新标签(_A)"
+
+msgid "No function. Just to be compatible with nautilus"
+msgstr "没有功能。仅为与 nautilus 兼容"
+
+msgid "Open Current Folder in _Terminal"
+msgstr "在终端中打开当前文件夹(_T)"
+
+msgid "Open Preferences dialog on the page N"
+msgstr "在第 N 页打开桌面偏好设置对话框"
+
+msgid "Open a Find Files window"
+msgstr "打开 查找文件 窗口"
+
+msgid "Open a window to choose remote folder location"
+msgstr "打开一个窗口来选择远程文件夹位置"
+
+msgid "Open desktop preference dialog"
+msgstr "打开桌面偏好设置对话框"
+
+msgid "Open in File Manager"
+msgstr "在文件管理器中打开"
+
+msgid "Open in New T_ab"
+msgstr "在新标签中打开(_A)"
+
+msgid "Open in New Ta_b"
+msgstr "在新标签中打开(_B)"
+
+msgid "Open in New Win_dow"
+msgstr "在新窗口中打开(_D)"
+
+msgid "Open in Termina_l"
+msgstr "在终端中打开(_L)"
+
+msgid "Open in current tab"
+msgstr "在当前标签中打开"
+
+msgid "Open in new tab"
+msgstr "在新标签中打开"
+
+msgid "Open in new window"
+msgstr "在新窗口中打开"
+
+msgid "Open new window"
+msgstr "打开新窗口"
+
+msgid "Open search dialog"
+msgstr "打开搜索对话框"
+
+msgid "Open trash can"
+msgstr "打开回收站"
+
+msgid "PROFILE"
+msgstr "配置"
+
+msgid "Pa_rent Folder"
+msgstr "上级文件夹(_R)"
+
+msgid "Pa_th:"
+msgstr "路径(_T)："
+
+msgid "Pat_h Bar"
+msgstr "路径栏(_H)"
+
+msgid "Places"
+msgstr "位置"
+
+msgid "Please select an image file"
+msgstr "请选择一个图像文件"
+
+msgid "Please select the action you want to perform:"
+msgstr "请您选择想执行的操作："
+
+msgid "Prefere_nces"
+msgstr "偏好设置(_N)"
+
+msgid "Preferences"
+msgstr "偏好设置"
+
+msgid "Preserve This Folder's Settings"
+msgstr "保留此文件夹的设置"
+
+msgid "Propertie_s"
+msgstr "属性(_S)"
+
+msgid "ROLE"
+msgstr "角色"
+
+msgid "R_ename..."
+msgstr "重命名(_E)..."
+
+msgid "Reload current folder"
+msgstr "重新载入当前文件夹"
+
+msgid "Remote"
+msgstr "远程"
+
+msgid "Removable medium is inserted"
+msgstr "插入了可移动媒质"
+
+msgid "Return to previous folder in history"
+msgstr "返回历史中的上个文件夹"
+
+msgid "Ru_n default application after creation from template"
+msgstr "在从模板创建后运行默认应用程序(_N)"
+
+msgid "Run PCManFM as a daemon"
+msgstr "以守护进程方式运行 PCManFM"
+
+msgid "Run a command"
+msgstr "运行一条命令"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "S_how connected volumes on the desktop"
+msgstr "在桌面上显示连接的卷(_H)"
+
+msgid "S_how only user defined templates in menu"
+msgstr "菜单中只显示用户定义的模板(_H)"
+
+msgid "S_ort Files"
+msgstr "排序文件(_O)"
+
+msgid "Select a Desktop Folder"
+msgstr "选择桌面文件夹"
+
+msgid "Select filter"
+msgstr "选择过滤器"
+
+msgid "Set desktop wallpaper from image FILE"
+msgstr "从图像文件设置桌面壁纸"
+
+msgid ""
+"Set mode of desktop wallpaper. MODE=(color|stretch|fit|crop|center|tile|"
+"screen)"
+msgstr "设置桌面壁纸模式。MODE=(color|stretch|fit|crop|center|tile|screen)"
+
+msgid "Sho_w \"Devices\" folder on the desktop"
+msgstr "在桌面上显示“设备”文件夹(_W)"
+
+msgid "Sho_w Hidden"
+msgstr "显示隐藏内容(_W)"
+
+msgid "Sho_w Side Pane"
+msgstr "显示侧窗格(_W)"
+
+msgid "Show \"_Trash Can\" folder on the desktop"
+msgstr "在桌面上显示“回收站”文件夹(_T)"
+
+msgid "Show 'New _Tab' Button"
+msgstr "显示“新标签页”按钮(_T)"
+
+msgid "Show 'New _Window' Button"
+msgstr "显示“新窗口”按钮(_W)"
+
+msgid "Show '_Home' Button"
+msgstr "显示“主文件夹”按钮"
+
+msgid "Show Status B_ar"
+msgstr "显示状态栏(_A)"
+
+msgid "Show _Navigation Buttons"
+msgstr "显示导航按钮(_N)"
+
+msgid "Show _only one template for each MIME type"
+msgstr "对每种 MIME 类型只显示一个模板(_O)"
+
+msgid "Show desktop menu"
+msgstr "显示桌面菜单"
+
+msgid "Show file menu"
+msgstr "显示文件菜单"
+
+msgid "Show history of visited folders"
+msgstr "显示访问文件夹历史"
+
+msgid "Show icons of hidden _files shadowed"
+msgstr "显示已屏蔽(shadowed)隐藏文件的图标(_F)"
+
+msgid "Show two panels with folder views"
+msgstr "显示两个文件夹查看窗格"
+
+msgid "Side _Pane"
+msgstr "侧窗格(_P)"
+
+msgid "Size of _big icons:"
+msgstr "大图标的尺寸(_B)："
+
+msgid "Size of _thumbnails:"
+msgstr "缩略图的尺寸(_T)："
+
+msgid "Size of side _pane icons:"
+msgstr "侧窗格图标的尺寸(_P)："
+
+msgid "Size of small _icons:"
+msgstr "小图标的尺寸(_I)："
+
+msgid "Snap to _Grid"
+msgstr "吸附到网格(_G)"
+
+msgid "Stic_k to Current Position"
+msgstr "粘在当前位置(_K)"
+
+msgid "Stretch and crop to fill the monitor area"
+msgstr "伸展并裁剪以充满整个显示区域"
+
+msgid "Stretch to fill the complete screen"
+msgstr "伸展以充满整个屏幕"
+
+msgid "Stretch to fill the entire monitor area"
+msgstr "伸展以充满整个显示区域"
+
+msgid "Stretch to fit the monitor area"
+msgstr "伸展以适合显示区域"
+
+msgid ""
+"Tab: cycle focus Folder View -> Side Pane -> Tools Bar\n"
+"Shift+Tab: cycle focus Tools Bar -> Side Pane -> Folder View\n"
+"F6: change focus Side pane <-> Folder view\n"
+"F8: focus divider between Side pane and Folder view\n"
+"F10: activate main menu\n"
+"Ctrl+L or Alt+D: jump focus to Path Bar"
+msgstr ""
+"Tab：切换聚焦 文件夹视图 -> 侧窗格 -> 工具栏\n"
+"Shift+Tab：切换聚焦 工具栏 -> 侧窗格 -> 文件夹视图\n"
+"F6：切换聚焦 侧窗格 <-> 文件夹视图\n"
+"F8：聚焦侧窗格和文件夹视图之间的分隔器\n"
+"F10：激活主菜单\n"
+"Ctrl+L 或 Alt+D：聚焦到路径栏"
+
+msgid "Terminal emulator is not set."
+msgstr "没有设置终端模拟器。"
+
+msgid "Thumbnail view"
+msgstr "缩略视图"
+
+msgid "Tile the image to fill the entire monitor area"
+msgstr "平铺图像以充满整个显示区域"
+
+msgid "Too_ls"
+msgstr "工具(_L)"
+
+msgid "Tool_bar"
+msgstr "工具栏(_B)"
+
+msgid "Treat backup files as _hidden"
+msgstr "将备份文件视为隐藏(_H)"
+
+msgid "Turn off desktop manager if it's running"
+msgstr "若桌面管理器正在运行，关闭它"
+
+msgid "Type of medium:"
+msgstr "媒质类型："
+
+msgid "Us_e SI decimal prefixes instead of IEC binary prefixes"
+msgstr "使用国际单位制的十进制前缀而非 IEC 的二进制前缀(_E)"
+
+msgid "Use --desktop option only for one screen"
+msgstr "只在一个屏幕时使用 --desktop 选项"
+
+msgid "Use Application Startup Notify _by default"
+msgstr "默认使用应用程序启动通知(_B)"
+
+msgid "Use path for \"Home Folder\" button:"
+msgstr "“主目录”按钮使用该路径："
+
+msgctxt "Use path for some folder: ..."
+msgid "Custom:"
+msgstr "自定义："
+
+msgctxt "Use path for some folder: ..."
+msgid "Default"
+msgstr "默认"
+
+msgid "Vie_w Mode:"
+msgstr "查看方式(_W)："
+
+msgid "Wallpaper _mode:"
+msgstr "壁纸模式(_M)："
+
+msgid "WebDAV"
+msgstr "WebDAV"
+
+msgid "When removable medium unmounted:"
+msgstr "当卸载可移动媒质时："
+
+msgid "Window role for usage by window manager"
+msgstr "窗口管理器用的窗口角色"
+
+msgid "You are in super user mode"
+msgstr "您正处于超级用户模式"
+
+msgid "Zoom O_ut"
+msgstr "缩小(_U)"
+
+msgid "[FILE1, FILE2,...]"
+msgstr "[文件1, 文件2,...]"
+
+msgid "_Add to Bookmarks..."
+msgstr "添加为书签(_A)..."
+
+msgid "_Advanced"
+msgstr "高级(_A)"
+
+msgid "_Always perform this action on this media type"
+msgstr "总是对此类媒质执行此操作(_A)"
+
+msgid "_Anonymous login"
+msgstr "匿名登录(_A)"
+
+msgid "_Appearance"
+msgstr "外观(_A)"
+
+msgid "_Applications"
+msgstr "应用程序(_A)"
+
+msgid "_Background color:"
+msgstr "背景色(_B)："
+
+msgid "_Bookmarks"
+msgstr "书签(_B)"
+
+msgid "_Bookmarks:"
+msgstr "书签(_B)："
+
+msgid "_Buttons"
+msgstr "按钮(_B)"
+
+msgid "_Close Tab"
+msgstr "关闭标签(_C)"
+
+msgid "_Compact View"
+msgstr "紧凑视图(_C)"
+
+msgid "_Connect to Server..."
+msgstr "连接服务器(_C)..."
+
+msgid "_Desktop"
+msgstr "桌面(_D)"
+
+msgid "_Desktop Icons"
+msgstr "桌面图标(_D)"
+
+msgid "_Display"
+msgstr "显示(_D)"
+
+msgid "_Dual Pane Mode"
+msgstr "双窗格模式(_D)"
+
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+msgid "_Erase files on removable media instead of \"trash can\" creation"
+msgstr "擦除可移动媒体上的文件，而非创建“回收站”(_E)"
+
+msgid "_File"
+msgstr "文件(_F)"
+
+msgid "_Filesystem Root"
+msgstr "文件系统根目录(_F)"
+
+msgid "_Focus previous folder after coming to its parent"
+msgstr "转到上一级后，选中该文件夹(_F)"
+
+msgid "_Font of label text:"
+msgstr "标签文本字体(_F)："
+
+msgid "_Format command:"
+msgstr "格式化命令(_F)："
+
+msgid "_General"
+msgstr "常规(_G)"
+
+msgid "_Go"
+msgstr "转到(_G)"
+
+msgid "_Go to Location..."
+msgstr "转到位置(_G)..."
+
+msgid "_Help"
+msgstr "帮助(_H)"
+
+msgid "_Home Folder"
+msgstr "主文件夹(_H)"
+
+msgid "_Host:"
+msgstr "主机(_H)："
+
+msgid "_Icon View"
+msgstr "图标视图(_I)"
+
+msgid "_Ignore Name Case"
+msgstr "忽略名称大小写(_I)"
+
+msgid "_Invert Selection"
+msgstr "反转选择(_I)"
+
+msgid "_Keyboard Navigation"
+msgstr "键盘导航(_K)"
+
+msgid "_Layout"
+msgstr "布局(_L)"
+
+msgid "_Location"
+msgstr "位置(_L)"
+
+msgid "_Login as:"
+msgstr "登录方式(_L)："
+
+msgid "_Maximum width of tab label:"
+msgstr "标签页文字最大宽度(_M)："
+
+msgid "_Mount mountable volumes automatically on program startup"
+msgstr "在程序启动时自动挂载可挂载的卷(_M)"
+
+msgid "_Move deleted files to \"trash can\" instead of erasing from disk"
+msgstr "将删除的文件移动到“回收站”而不是从磁盘中擦除(_M)"
+
+msgid "_Move to..."
+msgstr "移动到(_M)..."
+
+msgid "_Network"
+msgstr "网络(_N)"
+
+msgid "_New Window"
+msgstr "新窗口(_N)"
+
+msgid "_Next Folder"
+msgstr "下一个文件夹(_N)"
+
+msgid "_Only show thumbnails for local files"
+msgstr "只显示本地文件的缩略图(_O)"
+
+msgid "_Open files with single click"
+msgstr "单击打开文件(_O)"
+
+msgid "_Open folders from desktop in new window"
+msgstr "在新窗口打开桌面上的文件夹(_O)"
+
+msgid "_Open mounted removable media in new tab instead of new window"
+msgstr "在新标签页中打开挂载的可移动媒质，而非打开新窗口(_O)"
+
+msgid "_Port:"
+msgstr "端口(_P)："
+
+msgid "_Previous Folder"
+msgstr "上一个文件夹(_P)"
+
+msgid "_Reload Folder"
+msgstr "重新载入文件夹(_R)"
+
+msgid "_Remove from Desktop"
+msgstr "从桌面移除(_R)"
+
+msgid "_Remove selected"
+msgstr "删除选中项(_R)"
+
+msgid "_Run a Command in Current Folder..."
+msgstr "在当前文件夹中运行命令(_R)..."
+
+msgid "_Show \"Documents\" folder on the desktop"
+msgstr "在桌面上显示“文档”文件夹(_S)"
+
+msgid "_Show Toolbar"
+msgstr "显示工具栏(_S)"
+
+msgid "_Show available options for removable media when they are inserted"
+msgstr "在插入可移动媒质时显示可用操作(_S)"
+
+msgid "_Show menus provided by window managers when desktop is clicked"
+msgstr "在点击桌面时显示窗口管理器提供的菜单(_S)"
+
+msgid "_Show thumbnails of files"
+msgstr "显示文件的缩略图(_S)"
+
+msgid "_Switch user command:"
+msgstr "切换用户命令(_S)："
+
+msgid "_Terminal emulator:"
+msgstr "终端模拟器(_T)："
+
+msgid "_Thumbnail View"
+msgstr "缩略视图(_T)"
+
+msgid "_Trash Can"
+msgstr "回收站(_T)"
+
+msgid "_Type:"
+msgstr "类型(_T)："
+
+msgid "_Unfold tab when files are dragged onto tab button"
+msgstr "将文件拖放到标签按钮时自动展开标签(_U)"
+
+msgid "_Use current"
+msgstr "使用当前(_U)"
+
+msgid "_Use desktop as a folder (show icons on it) by path:"
+msgstr "将此路径对应的文件夹作为桌面(在其中显示图标)(_U)："
+
+msgid "_Use the same wallpaper on all desktops"
+msgstr "所有桌面使用相同的壁纸(_U)"
+
+msgid "_View"
+msgstr "视图(_V)"
+
+msgid "_Volume Management"
+msgstr "卷管理(_V)"
+
+msgid "_Wallpaper:"
+msgstr "壁纸(_W)："
+
+msgid "characters"
+msgstr "字符"
+
+msgid "mixed content"
+msgstr "混合内容"
+
+msgid "removable disk"
+msgstr "可移动磁盘"
+
+msgid "translator-credits"
+msgstr "Wylmer Wang <wantinghard@gmail.com>\nLate Lee <li@latelee.org>"
+
+msgid "using LibFM ver. %s\n"
+msgstr "--我的--使用 LibFM 版本 %s\n"
