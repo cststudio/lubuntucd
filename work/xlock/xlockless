@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# a simple wrapper for xlockmore
+# from cdlinux 
+declare XKB_RULES= CTL_LOCKED=no XLOCK_RC=~/.xlockrc
+
+# -vtlock doesn't work on cdlinux
+XKB_RULES=`setxkbmap -query | sed -n 's/^rules:\s*//p'` &&
+[ "$XKB_RULES" = "evdev" ] &&
+setxkbmap -keycodes xlock &&
+CTL_LOCKED=yes
+
+# rm "null crypted password"
+[ -s "$XLOCK_RC" ] || rm -f "$XLOCK_RC"
+
+if [ -f "$XLOCK_RC" ]; then
+  xlock
+else
+  urxvt -e xlock
+fi
+
+[ "$CTL_LOCKED" = "yes" ] && 
+setxkbmap -keycodes evdev

@@ -49,48 +49,55 @@ cp $ROOTFS/usr/share/applications/firefox.desktop $WORK_DIR/firefox
 # 卸载默认的firefox
 chroot $ROOTFS apt-get remove -y firefox
 # 解压、安装、创建链接
-chroot $ROOTFS tar xjf /firefox-38.0.tar.bz2
-chroot $ROOTFS mv /firefox /opt/firefox38
-chroot $ROOTFS rm /firefox-38.0.tar.bz2
-chroot $ROOTFS ln -s /opt/firefox38/firefox /usr/bin/firefox
+chroot $ROOTFS rm -rf /opt/firefox /usr/bin/firefox
+chroot $ROOTFS tar xjf /firefox-38.0.tar.bz2 -C /opt
+chroot $ROOTFS rm -rf /firefox-38.0.tar.bz2
+chroot $ROOTFS ln -s /opt/firefox/firefox /usr/bin/firefox
 #恢复桌面图标
 cp $WORK_DIR/firefox/firefox $ROOTFS/usr/share/lintian/overrides/firefox
 cp $WORK_DIR/firefox/firefox.desktop $ROOTFS/usr/share/applications/firefox.desktop
 # >>>>>>>>>>>>>>>>>>firefox38安装结束
 
 echo "copying desktop..."
-cd $ROOTFS/etc/skel/
-mkdir -p Desktop Documents Downloads Music Pictures Public Templates Videos
+
+mkdir -p $ROOTFS/etc/skel/{Desktop,Documents,Downloads,Music,Pictures,Public,Templates,Videos}
+
+NEW_DESKTOP=$ROOTFS/etc/skel/Desktop
 
 # 桌面图标(将系统已有的图标放到桌面上)位于Desktop目录下
 # 火狐浏览器
-cp $ROOTFS/usr/share/applications/firefox.desktop ./Desktop
+cp $ROOTFS/usr/share/applications/firefox.desktop $NEW_DESKTOP
 # 终端
-cp $ROOTFS/usr/share/applications/lxterminal.desktop ./Desktop
-# 屏幕锁
-#cp $ROOTFS/usr/share/applications/lubuntu-screenlock.desktop ./Desktop
+cp $ROOTFS/usr/share/applications/lxterminal.desktop $NEW_DESKTOP
+
 #输入法
-cp $ROOTFS/usr/share/applications/fcitx.desktop ./Desktop
+cp $ROOTFS/usr/share/applications/fcitx.desktop $NEW_DESKTOP
 
 # 用这种方式，如果不拷贝ubiquity.desktop，则双击图标无法安装
+# 注：ubiquity.desktop已经修改过了
 cp $WORK_DIR/etc/ubiquity.desktop $ROOTFS/usr/share/applications/ubiquity.desktop
-cp $WORK_DIR/etc/ubiquity.desktop ./Desktop
+cp $WORK_DIR/etc/ubiquity.desktop $NEW_DESKTOP
 
-# home目录和根目录(注：要修改)
-cp $WORK_DIR/etc/pcmanfm_home.desktop ./Desktop
-cp $WORK_DIR/etc/pcmanfm_rootfs.desktop ./Desktop
+# home目录和根目录(注：是新加的)
+cp $WORK_DIR/etc/pcmanfm_home.desktop $NEW_DESKTOP
+cp $WORK_DIR/etc/pcmanfm_rootfs.desktop $NEW_DESKTOP
 
 #下面自行添加要在桌面显示的图标
 
 # 拷贝鼠标样式、主题
 cp -a $WORK_DIR/lubuntu/.config .
 cp -a $WORK_DIR/lubuntu/.icons . 
-#cp -a $WORK_DIR/lubuntu/* .
 
-#cp -a $WORK_DIR/lubuntu/.local .
+####################
 
-chmod +x *
-cd -
+# 锁屏
+# 图标
+cp $WORK_DIR/xlock/xlock.desktop $ROOTFS/usr/share/applications/
+cp $WORK_DIR/xlock/xlock.desktop $NEW_DESKTOP
+#锁屏工具
+cp $WORK_DIR/xlock/xlock $ROOTFS/usr/sbin
+cp $WORK_DIR/xlock/xlockless $ROOTFS/usr/sbin
+chmod 777 $ROOTFS/usr/sbin/xlock*
 
 # 将时区改为东八区
 chroot $ROOTFS rm /etc/localtime
@@ -99,11 +106,14 @@ chroot $ROOTFS ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 # 汉化
 chroot $ROOTFS apt-get install -y language-pack-zh-hans language-pack-gnome-zh-hans language-pack-zh-hant language-pack-gnome-zh-hant language-pack-en language-pack-gnome-en
 
-# 语言文件修改测试(修改已修改过的mo文件覆盖)
+# 语言文件修改测试(用已修改过的mo文件覆盖)
 cp $WORK_DIR/i18n/pcmanfm.mo $ROOTFS/usr/share/locale/zh_CN/LC_MESSAGES/pcmanfm.mo
 
 # 输入法
 chroot $ROOTFS apt-get install -y fcitx-pinyin fcitx-table-wubi fcitx-table-wbpy 
+
+# 锁屏界面提示必须依赖此库
+chroot $ROOTFS apt-get install -y rxvt-unicode
 
 exit
 
