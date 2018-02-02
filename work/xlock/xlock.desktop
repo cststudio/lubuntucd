@@ -1,10 +1,8 @@
 [Desktop Entry]
 Icon=system-lock-screen
 Exec=xlockless
-NoDisplay=true
 Type=Application
-Categories=GTK;System;TerminalEmulator;
-Keywords=console;command line;execute;
+Categories=GTK;System;Utility;
 
 Name=ScreenLock
 Name[ar]=قفل الشاشة
