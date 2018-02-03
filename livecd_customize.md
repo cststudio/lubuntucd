@@ -540,7 +540,7 @@ rm -rf $(find /etc -name "*dpkg*") $(find /etc -name "*apt*")
 ![](assets/p_desktop_final.png) </br>
 
 本工程定制的ISO镜像下载地址如下：  
-链接: [https://pan.baidu.com/s/1jJ7bRNo](https://pan.baidu.com/s/1jJ7bRNo) 密码: 5c1u
+链接: [https://pan.baidu.com/s/1jJ7bRNo](https://pan.baidu.com/s/1jJ7bRNo) 密码: 5c1u  
 md5sum：4ac0996167214e0b541be7016be19220  
 
 关于本文任何问题或建议，欢迎反馈给我：li@latelee.org。  

@@ -75,8 +75,8 @@ ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U <br>
 
 ## 用法
 0. 下载本工程仓库到Linux某个目录（“工程目录”）。确认所有.sh文件有可执行属性。最好先执行命令：chmod +x *.sh。
-1. 下载lubuntu-16.04.3-desktop-amd64.iso(https://lubuntu.net/downloads/)到工程目录
-2. 下载firefox-38.0.tar.bz2(http://releases.mozilla.org/pub/firefox/releases/38.0/linux-x86_64/zh-CN/firefox-38.0.tar.bz2)到工程目录的tools目录
+1. 下载lubuntu-16.04.3-desktop-amd64.iso(https://lubuntu.net/downloads/) 到工程目录
+2. 下载firefox-38.0.tar.bz2(http://releases.mozilla.org/pub/firefox/releases/38.0/linux-x86_64/zh-CN/firefox-38.0.tar.bz2) 到工程目录的tools目录
 3. 执行：./1_tar_iso.sh && ./2_tar_splash.sh && ./3_build_splash.sh && ./update.sh  && ./4_build_iso.sh   
 
 ## 测试  
