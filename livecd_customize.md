@@ -539,9 +539,9 @@ rm -rf $(find /etc -name "*dpkg*") $(find /etc -name "*apt*")
 定制效果图如下： 
 ![](assets/p_desktop_final.png) </br>
 
-ISO镜像下载地址如下：  
-链接: [https://pan.baidu.com/s/1i6skHKx](https://pan.baidu.com/s/1i6skHKx) 密码: i5fm  
-md5sum：2d0945fb6b6dad974543151943554240  
+本工程定制的ISO镜像下载地址如下：  
+链接: [https://pan.baidu.com/s/1jJ7bRNo](https://pan.baidu.com/s/1jJ7bRNo) 密码: 5c1u
+md5sum：4ac0996167214e0b541be7016be19220  
 
 关于本文任何问题或建议，欢迎反馈给我：li@latelee.org。  
 

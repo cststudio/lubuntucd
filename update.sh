@@ -26,9 +26,6 @@ cp $WORK_DIR/etc/bash.bashrc $ROOTFS/etc/
 ############# 终端配置
 cp $WORK_DIR/etc/lxterminal.conf $ROOTFS/usr/share/lxterminal/
 
-############# 开始菜单
-cp $WORK_DIR/menu/panel $ROOTFS/usr/share/lxpanel/profile/Lubuntu/panels/
-
 ############# 准备网络环境
 cat $WORK_DIR/source/n163.list > $ROOTFS/etc/apt/sources.list
 cp /etc/resolv.conf $ROOTFS/etc/
@@ -124,7 +121,7 @@ chroot $ROOTFS apt-get install -y fcitx-pinyin fcitx-table-wubi fcitx-table-wbpy
 ############# 锁屏界面提示必须依赖此库
 chroot $ROOTFS apt-get install -y rxvt-unicode
 
-#exit
+chroot $ROOTFS apt-get clean
 
 # 卸载软件相关工具
 # software-properties-gtk 是软件安装、更新器，可以选择软件源、是否更新软件

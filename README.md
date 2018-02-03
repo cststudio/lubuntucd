@@ -1,19 +1,31 @@
 # lubuntucd -- Customize Live CD for Lubuntu(16.04.3 64 bit)  
 
-## document  
-* [customize ](livecd_customize.md)  
-* [soft install](softinstalling.md) 
+## Document  
+* [customize the lubuntu live cd(chineses only)](livecd_customize.md)  
+* [soft install for the lubuntu(chineses only)](softinstalling.md) 
 
-## file(script)  
+## Directory/File/Script  
 * 1_tar_iso.sh：unpack iso  
 * 2_tar_splash.sh:unpack initrd and bootlogo  
 * 3_build_splash.sh:make initrd and bootlogo  
 * 4_build_iso.sh：make iso  
 * update.sh：update logo and other files  
-  
+* tools: the tools file directory  
+* work: workspace directory(picture, configuration file, etc)  
+
+## Usage
+
+0. clone the project to some directory of Linux system(call it "project directory"). Make sure all .sh script files are executable: chmod +x *.sh. 
+1. download lubuntu-16.04.3-desktop-amd64.iso(https://lubuntu.net/downloads/) to the project directory.
+2. download firefox-38.0.tar.bz2(http://releases.mozilla.org/pub/firefox/releases/38.0/linux-x86_64/zh-CN/firefox-38.0.tar.bz2) to the tools directory.
+3. run: ./1_tar_iso.sh && ./2_tar_splash.sh && ./3_build_splash.sh && ./update.sh  && ./4_build_iso.sh   
+ 
+
 ## Test  
-test under vmware and U disk(using dd command to burn the iso)  
-  
+Testing the iso file using the following ways:  
+* vmware: create the vmware, use THE iso file to check the result.
+* USB flash drive(U-disk): use dd command to burn the iso to USB flash drive(dd if=mylubuntu.iso of=/dev/my-u-disk).
+
 ## Author  
 Late Lee <li@latelee.org>  
   
@@ -25,8 +37,8 @@ ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U <br>
 # lubuntucd -- 定制Lubunt(16.04.3 64位) Live CD  
 
 ## 文档  
-* [定制文档中文版](livecd_customize.md)  
-* [软件安装文档中文版](softinstalling.md) 
+* [定制文档(中文版)](livecd_customize.md)  
+* [软件安装文档(中文版)](softinstalling.md) 
 
 ## 需求项  
 * 桌面背景图片 OK  
@@ -49,21 +61,28 @@ ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U <br>
   
 ## 其它补充  
 * 桌面图标 安装lubuntu 16.04 改名为 安装系统  
-* 已经删除了软件中心、新立得、软件管理器  
+* 删除软件中心、新立得、软件管理器  
 * 卸载默认的firefox，安装firefox38版本（请自行下载压缩包）  
 * 锁屏使用xlock（需要安装额外软件，还要修改链接库目录）  
 * 语言包只针对英文、简体中文、繁体中文三种语言  
-* 快速使用本工程脚本定制：./1_tar_iso.sh && ./2_tar_splash.sh && ./3_build_splash.sh && ./update.sh  && ./4_build_iso.sh   
 
-## 文件说明  
+## 目录/文件/脚本说明  
 * 1_tar_iso.sh：解压iso  
 * 2_tar_splash.sh:解压initrd和bootlogo  
 * 3_build_splash.sh:重新制作initrd和bootlogo  
 * 4_build_iso.sh：制作iso  
 * update.sh：更新配置文件、图片等。  
-  
+
+## 用法
+0. 下载本工程仓库到Linux某个目录（“工程目录”）。确认所有.sh文件有可执行属性。最好先执行命令：chmod +x *.sh。
+1. 下载lubuntu-16.04.3-desktop-amd64.iso(https://lubuntu.net/downloads/)到工程目录
+2. 下载firefox-38.0.tar.bz2(http://releases.mozilla.org/pub/firefox/releases/38.0/linux-x86_64/zh-CN/firefox-38.0.tar.bz2)到工程目录的tools目录
+3. 执行：./1_tar_iso.sh && ./2_tar_splash.sh && ./3_build_splash.sh && ./update.sh  && ./4_build_iso.sh   
+
 ## 测试  
-本工程制作的iso光盘镜像，使用vmware虚拟机启动测试；同时也使用dd烧写到U盘，在物理机上启动测试。  
+使用如下2种方法测试：
+* vmware：创建vmware虚拟机，直接使用生成的ISO镜像启动，查看效果。
+* U盘烧录：使用dd命令烧写ISO镜像到U盘，然后在计算机启动之(命令：dd if=mylubuntu.iso of=/dev/U盘设备文件)。
   
 ## 作者  
 李迟 <li@latelee.org>  
