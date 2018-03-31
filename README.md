@@ -5,11 +5,11 @@
 * [soft install for the lubuntu(chineses only)](softinstalling.md) 
 
 ## Directory/File/Script  
-* 1_tar_iso.sh£ºunpack iso  
+* 1_tar_iso.shï¼šunpack iso  
 * 2_tar_splash.sh:unpack initrd and bootlogo  
 * 3_build_splash.sh:make initrd and bootlogo  
-* 4_build_iso.sh£ºmake iso  
-* update.sh£ºupdate logo and other files  
+* 4_build_iso.shï¼šmake iso  
+* update.shï¼šupdate logo and other files  
 * tools: the tools file directory  
 * work: workspace directory(picture, configuration file, etc)  
 
@@ -34,63 +34,63 @@ Late Lee <li@latelee.org>
 ETH: 0xe3725f50d7E79babae5F5390C85687bc75d0B5FC <br>  
 ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U <br>  
   
-# lubuntucd -- ¶¨ÖÆLubunt(16.04.3 64Î») Live CD  
+# lubuntucd -- å®šåˆ¶Lubunt(16.04.3 64ä½) Live CD  
 
-## ÎÄµµ  
-* [¶¨ÖÆÎÄµµ(ÖĞÎÄ°æ)](livecd_customize.md)  
-* [Èí¼ş°²×°ÎÄµµ(ÖĞÎÄ°æ)](softinstalling.md) 
+## æ–‡æ¡£  
+* [å®šåˆ¶æ–‡æ¡£(ä¸­æ–‡ç‰ˆ)](livecd_customize.md)  
+* [è½¯ä»¶å®‰è£…æ–‡æ¡£(ä¸­æ–‡ç‰ˆ)](softinstalling.md) 
 
-## ĞèÇóÏî  
-* ×ÀÃæ±³¾°Í¼Æ¬ OK  
-* ÏµÍ³¿ª»ú¹Ø»úÍ¼Æ¬ OK  
-* ¿ª»úÎÄ×Ö¡¢Í¼Æ¬ OK  
-* ÖÕ¶ËĞ§¹û OK  
-* ×ÀÃæÍ¼±ê¼°¸ÄÃû OK  
-* HOMEÄ¿Â¼·Åµ½×ÀÃæ OK  
-* Ö÷Ìâ¡¢Êó±êÑùÊ½ OK £¨ÊµÏÖ·½·¨²»ÊÇ×î¼ÑµÄ£©  
-* Ê±ÇøĞŞ¸Ä OK  
-* »·¾³±äÁ¿ĞŞ¸Ä OK  
-* ÏµÍ³ºº»¯ OK  
-* Æ´Òô¡¢Îå±ÊÊäÈë·¨ OK  
-* É¾³ıÈí¼ş°²×°Í¾¾¶ OK  
-* Èí¼ş°²×° OK £¨¹ıÓÚ¸´ÔÓ£¬ÁíÆğÎÄµµÃèÊö£©  
-* ÓïÑÔÎÄ¼şĞŞ¸Ä OK  
-* ËøÆÁ OK  
-* ²Ëµ¥·ÖÀà¡¢¸ÄÃû OK  
-* ×ÀÃæÍ¼±ê¶ÔÆë NOOOOO  
+## éœ€æ±‚é¡¹  
+* æ¡Œé¢èƒŒæ™¯å›¾ç‰‡ OK  
+* ç³»ç»Ÿå¼€æœºå…³æœºå›¾ç‰‡ OK  
+* å¼€æœºæ–‡å­—ã€å›¾ç‰‡ OK  
+* ç»ˆç«¯æ•ˆæœ OK  
+* æ¡Œé¢å›¾æ ‡åŠæ”¹å OK  
+* HOMEç›®å½•æ”¾åˆ°æ¡Œé¢ OK  
+* ä¸»é¢˜ã€é¼ æ ‡æ ·å¼ OK ï¼ˆå®ç°æ–¹æ³•ä¸æ˜¯æœ€ä½³çš„ï¼‰  
+* æ—¶åŒºä¿®æ”¹ OK  
+* ç¯å¢ƒå˜é‡ä¿®æ”¹ OK  
+* ç³»ç»Ÿæ±‰åŒ– OK  
+* æ‹¼éŸ³ã€äº”ç¬”è¾“å…¥æ³• OK  
+* åˆ é™¤è½¯ä»¶å®‰è£…é€”å¾„ OK  
+* è½¯ä»¶å®‰è£… OK ï¼ˆè¿‡äºå¤æ‚ï¼Œå¦èµ·æ–‡æ¡£æè¿°ï¼‰  
+* è¯­è¨€æ–‡ä»¶ä¿®æ”¹ OK  
+* é”å± OK  
+* èœå•åˆ†ç±»ã€æ”¹å OK  
+* æ¡Œé¢å›¾æ ‡å¯¹é½ NOOOOO  
   
-## ÆäËü²¹³ä  
-* ×ÀÃæÍ¼±ê °²×°lubuntu 16.04 ¸ÄÃûÎª °²×°ÏµÍ³  
-* É¾³ıÈí¼şÖĞĞÄ¡¢ĞÂÁ¢µÃ¡¢Èí¼ş¹ÜÀíÆ÷  
-* Ğ¶ÔØÄ¬ÈÏµÄfirefox£¬°²×°firefox38°æ±¾£¨Çë×ÔĞĞÏÂÔØÑ¹Ëõ°ü£©  
-* ËøÆÁÊ¹ÓÃxlock£¨ĞèÒª°²×°¶îÍâÈí¼ş£¬»¹ÒªĞŞ¸ÄÁ´½Ó¿âÄ¿Â¼£©  
-* ÓïÑÔ°üÖ»Õë¶ÔÓ¢ÎÄ¡¢¼òÌåÖĞÎÄ¡¢·±ÌåÖĞÎÄÈıÖÖÓïÑÔ  
+## å…¶å®ƒè¡¥å……  
+* æ¡Œé¢å›¾æ ‡ å®‰è£…lubuntu 16.04 æ”¹åä¸º å®‰è£…ç³»ç»Ÿ  
+* åˆ é™¤è½¯ä»¶ä¸­å¿ƒã€æ–°ç«‹å¾—ã€è½¯ä»¶ç®¡ç†å™¨  
+* å¸è½½é»˜è®¤çš„firefoxï¼Œå®‰è£…firefox38ç‰ˆæœ¬ï¼ˆè¯·è‡ªè¡Œä¸‹è½½å‹ç¼©åŒ…ï¼‰  
+* é”å±ä½¿ç”¨xlockï¼ˆéœ€è¦å®‰è£…é¢å¤–è½¯ä»¶ï¼Œè¿˜è¦ä¿®æ”¹é“¾æ¥åº“ç›®å½•ï¼‰  
+* è¯­è¨€åŒ…åªé’ˆå¯¹è‹±æ–‡ã€ç®€ä½“ä¸­æ–‡ã€ç¹ä½“ä¸­æ–‡ä¸‰ç§è¯­è¨€  
 
-## Ä¿Â¼/ÎÄ¼ş/½Å±¾ËµÃ÷  
-* 1_tar_iso.sh£º½âÑ¹iso  
-* 2_tar_splash.sh:½âÑ¹initrdºÍbootlogo  
-* 3_build_splash.sh:ÖØĞÂÖÆ×÷initrdºÍbootlogo  
-* 4_build_iso.sh£ºÖÆ×÷iso  
-* update.sh£º¸üĞÂÅäÖÃÎÄ¼ş¡¢Í¼Æ¬µÈ¡£  
+## ç›®å½•/æ–‡ä»¶/è„šæœ¬è¯´æ˜  
+* 1_tar_iso.shï¼šè§£å‹iso  
+* 2_tar_splash.sh:è§£å‹initrdå’Œbootlogo  
+* 3_build_splash.sh:é‡æ–°åˆ¶ä½œinitrdå’Œbootlogo  
+* 4_build_iso.shï¼šåˆ¶ä½œiso  
+* update.shï¼šæ›´æ–°é…ç½®æ–‡ä»¶ã€å›¾ç‰‡ç­‰ã€‚  
 
-## ÓÃ·¨
-0. ÏÂÔØ±¾¹¤³Ì²Ö¿âµ½LinuxÄ³¸öÄ¿Â¼£¨¡°¹¤³ÌÄ¿Â¼¡±£©¡£È·ÈÏËùÓĞ.shÎÄ¼şÓĞ¿ÉÖ´ĞĞÊôĞÔ¡£×îºÃÏÈÖ´ĞĞÃüÁî£ºchmod +x *.sh¡£
-1. ÏÂÔØlubuntu-16.04.3-desktop-amd64.iso(https://lubuntu.net/downloads/) µ½¹¤³ÌÄ¿Â¼
-2. ÏÂÔØfirefox-38.0.tar.bz2(http://releases.mozilla.org/pub/firefox/releases/38.0/linux-x86_64/zh-CN/firefox-38.0.tar.bz2) µ½¹¤³ÌÄ¿Â¼µÄtoolsÄ¿Â¼
-3. Ö´ĞĞ£º./1_tar_iso.sh && ./2_tar_splash.sh && ./3_build_splash.sh && ./update.sh  && ./4_build_iso.sh   
+## ç”¨æ³•
+0. ä¸‹è½½æœ¬å·¥ç¨‹ä»“åº“åˆ°LinuxæŸä¸ªç›®å½•ï¼ˆâ€œå·¥ç¨‹ç›®å½•â€ï¼‰ã€‚ç¡®è®¤æ‰€æœ‰.shæ–‡ä»¶æœ‰å¯æ‰§è¡Œå±æ€§ã€‚æœ€å¥½å…ˆæ‰§è¡Œå‘½ä»¤ï¼šchmod +x *.shã€‚
+1. ä¸‹è½½lubuntu-16.04.3-desktop-amd64.iso(https://lubuntu.net/downloads/) åˆ°å·¥ç¨‹ç›®å½•
+2. ä¸‹è½½firefox-38.0.tar.bz2(http://releases.mozilla.org/pub/firefox/releases/38.0/linux-x86_64/zh-CN/firefox-38.0.tar.bz2) åˆ°å·¥ç¨‹ç›®å½•çš„toolsç›®å½•
+3. æ‰§è¡Œï¼š./1_tar_iso.sh && ./2_tar_splash.sh && ./3_build_splash.sh && ./update.sh  && ./4_build_iso.sh   
 
-## ²âÊÔ  
-Ê¹ÓÃÈçÏÂ2ÖÖ·½·¨²âÊÔ£º
-* vmware£º´´½¨vmwareĞéÄâ»ú£¬Ö±½ÓÊ¹ÓÃÉú³ÉµÄISO¾µÏñÆô¶¯£¬²é¿´Ğ§¹û¡£
-* UÅÌÉÕÂ¼£ºÊ¹ÓÃddÃüÁîÉÕĞ´ISO¾µÏñµ½UÅÌ£¬È»ºóÔÚ¼ÆËã»úÆô¶¯Ö®(ÃüÁî£ºdd if=mylubuntu.iso of=/dev/UÅÌÉè±¸ÎÄ¼ş)¡£
+## æµ‹è¯•  
+ä½¿ç”¨å¦‚ä¸‹2ç§æ–¹æ³•æµ‹è¯•ï¼š
+* vmwareï¼šåˆ›å»ºvmwareè™šæ‹Ÿæœºï¼Œç›´æ¥ä½¿ç”¨ç”Ÿæˆçš„ISOé•œåƒå¯åŠ¨ï¼ŒæŸ¥çœ‹æ•ˆæœã€‚
+* Uç›˜çƒ§å½•ï¼šä½¿ç”¨ddå‘½ä»¤çƒ§å†™ISOé•œåƒåˆ°Uç›˜ï¼Œç„¶ååœ¨è®¡ç®—æœºå¯åŠ¨ä¹‹(å‘½ä»¤ï¼šdd if=mylubuntu.iso of=/dev/Uç›˜è®¾å¤‡æ–‡ä»¶)ã€‚
   
-## ×÷Õß  
-Àî³Ù <li@latelee.org>  
+## ä½œè€…  
+æè¿Ÿ <li@latelee.org>  
   
-## ¾èÔù  
-Èç¹û¶Ô¸óÏÂÓĞ°ïÖú£¬»¶Ó­¾èÔù¡£  
-[¾èÔù×÷Õß](http://www.latelee.org/donate)  
-Êı×Ö±Ò£º <br>  
+## æèµ   
+å¦‚æœå¯¹é˜ä¸‹æœ‰å¸®åŠ©ï¼Œæ¬¢è¿æèµ ã€‚  
+![](latelee_pay.png)
+æ•°å­—å¸ï¼š <br>  
 ETH: 0xe3725f50d7E79babae5F5390C85687bc75d0B5FC  
 ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U  
   
