@@ -1,4 +1,4 @@
-# lubuntucd -- Customize Live CD for Lubuntu(16.04.3 64 bit)  
+﻿# lubuntucd -- Customize Live CD for Lubuntu(16.04.3 64 bit)  
 
 ## Document  
 * [customize the lubuntu live cd(chineses only)](livecd_customize.md)  
@@ -89,7 +89,7 @@ ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U <br>
   
 ## 捐赠  
 如果对阁下有帮助，欢迎捐赠。  
-![](latelee_pay.png)
+![](latelee_pay.png)  
 数字币： <br>  
 ETH: 0xe3725f50d7E79babae5F5390C85687bc75d0B5FC  
 ZEC: t1UUprgPWTeMy1AgmKkNpXXcUZPLL3cxv8U  
